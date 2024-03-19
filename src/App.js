@@ -11,7 +11,7 @@ function App() {
   // eslint-disable-next-line
   const [data, setData] = useState()
   // eslint-disable-next-line
-  const [image, setImage] = useState('https://mbpschool.com/wp-content/uploads/2022/05/Rafael-Lea%CC%83o-AC-Milan.png')
+  const [image, setImage] = useState('')
 
   const handleOnChange = event => {
     setImage(event.target.value)
